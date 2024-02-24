@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*------- HEARDER ---------*/
+.hcontain{
+    /* background: ; */
+    margin: 60px;
+    margin-block: 100px;
+    padding: 0px; 
+    /* border: 2px solid #000; */
+}
+.hcontain h1{
+    font-size: 200px;
+    text-align: center;
+}
+.hcontain h3{
+    text-align: center;
+    letter-spacing: 6px;
+}
+/* ------- SECTION -------- */
+.sparrafo{
+    margin: 60px;
+    padding-inline: 200px;
+    /* border: 2px solid #000; */
+}
+.sparrafo p{
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+}
