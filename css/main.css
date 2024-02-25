@@ -5,9 +5,7 @@
 /*------- HEARDER ---------*/
 .hcontain{
     /* background: ; */
-    margin: 60px;
-    margin-block: 100px;
-    padding: 0px; 
+    padding: 70px;
     /* border: 2px solid #000; */
 }
 .hcontain h1{
@@ -18,14 +16,11 @@
     text-align: center;
     letter-spacing: 6px;
 }
-/* ------- SECTION -------- */
-.sparrafo{
-    margin: 60px;
-    padding-inline: 200px;
-    /* border: 2px solid #000; */
-}
-.sparrafo p{
+.hcontain p{
     font-size: 12px;
     text-align: center;
     letter-spacing: 2px;
+    padding-inline: 200px;
+    /* border: 2px solid #000; */
 }
+
