@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <!--  link CSS -->
-    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/main.css">
     <!--  --  -->
     <title>Vehiculos JDM</title>
@@ -12,27 +12,16 @@
 </head>
 
 <body>
-    <nav>
-        <ul class="menu-horizontal">
-            <li><a href="miata.html">miata</a></li>
-            <li><a href="subaru.html">subaru</a></li>
-            <li><a href="r34.html">r34</a></li>
-            <li><a href="rx7.html">rx7</a></li>
-            <li><a href="silvia.html">silvia</a></li>
-            <li><a href="supra.html">supra</a></li>
-        </ul>
-    </nav>
-
     <header>
-
+        <div id="bgtrans"></div>
         <video muted autoplay loop class="bgvideo">
-            <source src="resourses/video_5.mp4" type="video/mp4">
+            <source src="resourses/video_3.mp4" type="video/mp4">
             Video Fondo No Encontrada
         </video>
 
         <div class="hcontain">
             <h1> JDM</h1>
-            <h3> Japanese Domestic Market</h3>
+            <h3> Japanese Domestic Market</h3>    
         </div>
         <div class="hcontain">
             <p>
@@ -45,9 +34,29 @@
             </p>
         </div>
     </header>
+    <!--   VEHICULOS    -->
+    <section class="gridmain">
+        <article id="miata">
+            <button class="btn" onclick="document.location='miata.html'"> miata </button>
+        </article>
+        <article id="hnsx">
+            <button class="btn" onclick="document.location='hnsx.html'"> honda nsx </button>
+        </article>
+        <article id="silvia">
+            <button class="btn"onclick="document.location='silvia.html'"> nissan silvia </button>
+        </article>
+        <article id="subaru">
+            <button class="btn" onclick="document.location='subaru.html'"> subaru impreza </button>
+        </article>
+        <article id="supra">
+            <button class="btn" onclick="document.location='supra.html'"> toyota supra </button>
+        </article>
+        <article id="rx7">
+            <button class="btn" onclick="document.location='rx7.html'"> mazda rx7 </button>
+        </article>
+    </section>
 
-
-
+        <!-- <a href="r34.html"> nissan r34</a> -->
 
 </body>
 
