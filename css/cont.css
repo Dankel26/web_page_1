@@ -8,20 +8,24 @@
 
 .cont h1{
    
-    font-size: 200px;
+    font-size: 20vh;
     text-align: center;
     position: absolute;
     right: 20%;
     color: #ffffff;
     margin: black;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .cont h3{
-    margin-top: 35%;
+    margin-top: 30%;
     position: relative;
     text-align: center;
     color: #ffffff;
     font-size: 30px;
+   
     
 }
 
