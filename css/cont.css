@@ -1,0 +1,37 @@
+.cont{
+    padding:20px;
+    padding-top: 10%;
+    background-color: #000000;
+
+
+}
+
+.cont h1{
+   
+    font-size: 200px;
+    text-align: center;
+    position: absolute;
+    right: 20%;
+    color: #ffffff;
+    margin: black;
+}
+
+.cont h3{
+    margin-top: 35%;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    
+}
+
+
+.vid{
+    position: absolute;
+    width: 100%;
+    height: 90vh; /* Ocupa toda la altura de la ventana */
+    object-fit: cover;
+}
+
+
+
