@@ -17,11 +17,13 @@
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
+    
+    
 }
 
 .cont h3{
     margin-top: 30%;
-    position: relative;
+    position: static;
     text-align: center;
     color: #ffffff;
     font-size: 30px;
