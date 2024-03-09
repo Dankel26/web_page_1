@@ -1,7 +1,7 @@
 
 /* ------- GRID MAIN ------- */
 .grid1{
-    display: flex;
+    display: block;
 }
 
 
@@ -16,32 +16,8 @@
     z-index: 3;
 }
 
-.gridbg{
-    position: relative;
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 0px;
-    z-index: 0;
-}
-
-
-.txgrid{
-
-    box-sizing: border-box;
-    bottom: 0;
-    padding: 3%;
-    box-sizing: border-box;
-    text-align: center;
-    width: 100%;
-    height: 50%;
-    position: relative;
-    z-index: 2;
-}
-
 .btn{
+    position: relative;
     color: #fff;
     width: 100%;
     height: 100%;
@@ -51,43 +27,61 @@
     z-index: 1;
 }
 
-.imgrid{
-    align-items: center;
+.opgrid{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7;
     position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-.bggrid{
-    position: relative;
-    opacity: 0.4;
-    align-items: center;
-    width: 100%;
-    height: 100%;
     z-index: 0;
 }
 
+/*  before recoge el codigo primero */
+/* .gridmain #miata::before{ 
+} */
 
 .gridmain #miata{
     background-color: #000;
+    background-image: url('../resourses/grid_miata.jpg');
+    background-size: cover;
+    position: relative;
 }
 
 .gridmain #r34{
     background-color: #000;
+    background-image: url('../resourses/r34.jpg');
+    background-size: cover;
+    background-position-y: 70%;
+    position: relative;
 }
 
 .gridmain #silvia{
     background-color: #000;
+    background-image: url('../resourses/silviamod.jpg');
+    background-size: cover;
+    background-position-y: 60%;
+    position: relative;
 }
 
 .gridmain #subaru{
     background-color: #000;
+    background-image: url('../resourses/subarumodf.jpg');
+    background-size: cover;
+    background-position-x: 100%;
+    position: relative;
 }
 
 .gridmain #supra{
     background-color: #000;
+    background-image: url('../resourses/supramod.jpg');
+    background-size: cover;
+    position: relative;
 }
 
 .gridmain #rx7{
     background-color: #000;
+    background-image: url('../resourses/rx7.jpg');
+    background-size: cover;
+    background-position-y: 40%;
+    position: relative;
 }
