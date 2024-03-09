@@ -1,4 +1,5 @@
 *{
+    font-family: "Anton", sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -7,27 +8,33 @@
 .hcontain h1{
     font-size: 200px;
     text-align: center;
+    letter-spacing: 10px;
 }
 .hcontain h3{
     text-align: center;
-    letter-spacing: 6px;
+    letter-spacing: 8px;
+
 }
-.hcontain p{
-    font-size: 12px;
+.pcontain p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
     text-align: center;
     letter-spacing: 2px;
     padding-inline: 200px;
-    
 }
 
 .hcontain{
-  
-
-    color: #fff;
+    color: #ebebeb;
     position: relative;
-    padding: 70px;
+    padding: 60px;
     z-index: 2;
-    
+}
+.pcontain{
+    color: #ebebeb;
+    position: relative;
+    padding: 50px;
+    padding-top: 20px;
+    z-index: 2;
 }
 
 #bgtrans{ 

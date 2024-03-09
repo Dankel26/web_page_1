@@ -1,8 +1,9 @@
 
 /* ------- GRID MAIN ------- */
-.sect_grid{
+.grid1{
     display: flex;
 }
+
 
 .gridmain{
     position: relative;
@@ -15,7 +16,33 @@
     z-index: 3;
 }
 
+.gridbg{
+    position: relative;
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0px;
+    z-index: 0;
+}
+
+
+.txgrid{
+
+    box-sizing: border-box;
+    bottom: 0;
+    padding: 3%;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    z-index: 2;
+}
+
 .btn{
+    color: #fff;
     width: 100%;
     height: 100%;
     background-color: transparent;
@@ -26,50 +53,41 @@
 
 .imgrid{
     align-items: center;
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
 }
 
-.bgbgrid{
+.bggrid{
+    position: relative;
     opacity: 0.4;
     align-items: center;
-    display: flex;
     width: 100%;
     height: 100%;
     z-index: 0;
 }
 
-.tbgrid{
-    margin-top: -50px;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    position: absolute;
-    z-index: 5;
-}
 
 .gridmain #miata{
     background-color: #000;
-    display: flex;
 }
 
-.gridmain #hnsx{
-    background-color: #575757;
+.gridmain #r34{
+    background-color: #000;
 }
 
 .gridmain #silvia{
-    background-color: #424242;
+    background-color: #000;
 }
 
 .gridmain #subaru{
-    background-color: #c4c4c4;
+    background-color: #000;
 }
 
 .gridmain #supra{
-    background-color: #999999;
+    background-color: #000;
 }
 
 .gridmain #rx7{
-    background-color: #333333;
+    background-color: #000;
 }
