@@ -3,7 +3,6 @@
     padding-top: 10%;
     background-color: #000000;
 
-
 }
 
 .cont h1{
@@ -17,17 +16,62 @@
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-
-.cont h3{
-    margin-top: 30%;
-    position: relative;
-    text-align: center;
-    color: #ffffff;
-    font-size: 30px;
-   
+    
     
 }
+#mta:hover{
+    color: #ffe1e1;
+}
+
+#mta{
+    left: 19%;
+    margin-top: 3%;
+}
+
+#spr:hover{
+    color: #9b9b9b;
+}
+
+#spr{
+    left: 16%;
+    margin-top: -2%;
+}
+
+#sbr:hover{
+    color: #555555;
+
+
+}
+
+#S14:hover{
+    color: #f19165;
+
+}
+#S14{
+    left: 19%;
+    margin-top: -2%;
+}
+#Rx7:hover{
+    color: #a3a3a3;
+
+}
+
+#Rx7{
+    left: 19%;
+    margin-top: 2%;
+}
+
+#r34:hover{
+    color: #577de6;
+}
+#r34{
+    left: 19%;
+    margin-top: -3%;   
+}
+
+
+
+
 
 
 .vid{
@@ -36,9 +80,7 @@
     height: 90vh; 
     object-fit: cover;
 }
-.btn{
-    background-color: #494949;
-}
+
 
 
 
