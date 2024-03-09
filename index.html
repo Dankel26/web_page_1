@@ -4,27 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <!--  link CSS -->
-    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/main.css">
     <!--  --  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <title>Vehiculos JDM</title>
     <link rel="shortcut icon" href="resourses/icon.png">
 </head>
 
 <body>
-    <nav>
-        <ul class="menu-horizontal">
-            <li><a href="miata.html">miata</a></li>
-            <li><a href="subaru.html">subaru</a></li>
-            <li><a href="r34.html">r34</a></li>
-            <li><a href="rx7.html">rx7</a></li>
-            <li><a href="silvia.html">silvia</a></li>
-            <li><a href="supra.html">supra</a></li>
-        </ul>
-    </nav>
-
     <header>
-
+        <div id="bgtrans"></div>
         <video muted autoplay loop class="bgvideo">
             <source src="resourses/video_5.mp4" type="video/mp4">
             Video Fondo No Encontrada
@@ -34,7 +26,7 @@
             <h1> JDM</h1>
             <h3> Japanese Domestic Market</h3>
         </div>
-        <div class="hcontain">
+        <div class="pcontain">
             <p>
                 El Japanese Domestic Market (JDM), en español Mercado Interno Japonés,
                 es el término utilizado por las empresas en Japón para referirse al
@@ -45,9 +37,38 @@
             </p>
         </div>
     </header>
+    <!--   VEHICULOS    -->
+    <section class="grid1">
+        <section class="gridmain">
+            <article id="miata">
+                <div class="opgrid"></div>
+                <button class="btn" onclick="document.location='miata.html'"> Mazda MX-5 </button>
+            </article>
+            <article id="r34">
+                <div class="opgrid"></div>
+                <button class="btn" onclick="document.location='r34.html'"> Nissan Skyline </button>
+            </article>
+            <article id="silvia">
+                <div class="opgrid"></div>
+                <button class="btn" onclick="document.location='silvia.html'"> Nissan Silvia </button>
+            </article>
+            <article id="subaru">
+                <div class="opgrid"></div>
+                <button class="btn" onclick="document.location='subaru.html'"> Subaru Impreza </button>
+            </article>
+            <article id="supra">
+                <div class="opgrid"></div>
+                <button class="btn" onclick="document.location='supra.html'"> Toyota Supra </button>
+            </article>
+            <article id="rx7">
+                <div class="opgrid"></div>
+                <button class="btn" onclick="document.location='rx7.html'"> Mazda RX-7 </button>
+            </article>
+        </section>
+    </section>
 
 
-
+    <!-- <a href="r34.html"> nissan r34</a> -->
 
 </body>
 
